@@ -1,8 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Counter from "./components/Counter/counter/Counter";
-import User from './components/Counter/counter/User/user/User';
+import User from './components/user/User';
 
 function App() {
   return (
