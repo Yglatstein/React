@@ -1,5 +1,5 @@
 import React, { useState, FC } from "react";
-import {useCounter} from "../../hooks/useCounter"
+import useCounter from "../../hooks/useCounter"
 
 
 interface DogsProps {
@@ -20,7 +20,7 @@ const Image: FC<DogsProps> = ({ src }) => {
       <img src={src} alt="" />
       <br></br>
       <button onClick={() => increment}>Like</button>
-      <h6>{}</h6>
+      {count}
     </div>
   );
 };

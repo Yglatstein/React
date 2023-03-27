@@ -1,11 +1,16 @@
 import { useEffect, useState } from "react";
 
-export function useCounter(initialState = 0){
-    const [state, setState] = useState(initialState)
+function useCounter(initialState = 0){
+    const [state, setCounter] = useState(initialState)
 
     const increment = () => {
-        setState(state => state + 1)
+        console.log("ckicked")
+        setCounter(state => state + 1)
     }
+
+    const get = () => state;
 
     return [state, increment]
 }
+
+export default useCounter
