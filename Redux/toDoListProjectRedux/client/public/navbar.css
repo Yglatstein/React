@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  background: #ffffff;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  padding-left: 1rem;
+}/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,89 @@
+body {
+  margin-top: 20px;
+  background: #f8f8f8;
+}
+
+.home-div .container {
+  display: flex;
+  flex-direction: column;
+}
+.home-div .container .todo-list-container {
+  justify-self: center;
+  text-align: center;
+  margin-top: 10px;
+}
+.home-div .container .todo-list-container .todo-list {
+  justify-self: center;
+  text-align: center;
+}
+.home-div .wrapper {
+  margin: 120px auto;
+  max-width: 400px;
+  width: 100%;
+  background: white;
+  border-radius: 5px;
+  padding: 25px;
+}
+.home-div .wrapper .inputField {
+  display: flex;
+  height: 45px;
+  width: 100%;
+  margin: 20px 0;
+}
+.home-div .wrapper .inputField input {
+  width: 85%;
+  height: 100%;
+  border: 1px solid;
+  font-size: 17px;
+  border-radius: 3px;
+  padding-left: 15px;
+}
+.home-div .wrapper .inputField button {
+  width: 60px;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: #455f52;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+.home-div .wrapper .todoList li {
+  list-style: none;
+  height: 45px;
+  line-height: 45px;
+  position: relative;
+  background-color: white;
+  border-radius: 3px;
+  margin-bottom: 8px;
+  padding: 0 15px;
+}
+.home-div .wrapper .todoList li span {
+  position: absolute;
+  right: 0px;
+  color: red;
+  width: 45px;
+  text-align: center;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+}
+.home-div .wrapper .footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.home-div .wrapper .footer button {
+  border: none;
+  outline: none;
+  background: #455f52;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 6px 10px;
+}
+
+h2 {
+  margin: 0;
+}/*# sourceMappingURL=home.css.map */
